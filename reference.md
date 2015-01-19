@@ -3,6 +3,14 @@ Snippet reference
 
 To use the a snippet just type the prefix and hit your tab.
 
+## Active record
+
+**Coming soon**
+
+## Session
+
+**Coming soons**
+
 ## miscanelious CI
 
 | Prefix:        | Output                                        |
