@@ -62,3 +62,7 @@
   'Log message':
     'prefix': 'log'
     'body': "log_message('${1:error}','${2:message}');"
+
+  'CI Controller':
+    'prefix': 'controller'
+    'body': "function ${1:name}() {\n // Where the magic happens \n}"
