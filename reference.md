@@ -5,7 +5,9 @@ To use the a snippet just type the prefix and hit your tab.
 
 ## Active record
 
-**Coming soon**
+| Prefix:     | Output:                      |
+| ----------- | ---------------------------- |
+| `db_delete` | `$this->db->delete('table')` |
 
 ## Session
 
@@ -13,7 +15,7 @@ To use the a snippet just type the prefix and hit your tab.
 
 ## miscanelious CI
 
-| Prefix:        | Output                                        |
+| Prefix:        | Output:                                       |
 | -------------- | --------------------------------------------- |
 | `controller`   | A controller                                  |
 | `load_helper`  | `$this->load->helper(array('helper_name'));`  |
