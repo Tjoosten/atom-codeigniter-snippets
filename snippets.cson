@@ -58,3 +58,7 @@
   'load a model':
     'prefix': 'load_model'
     'body': "$this->load->model('${1:Model_name}');"
+
+  'Log message':
+    'prefix': 'log'
+    'body': "log_message('${1:error}','${2:message}');"
