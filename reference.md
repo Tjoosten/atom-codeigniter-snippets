@@ -5,9 +5,10 @@ To use the a snippet just type the prefix and hit your tab.
 
 ## Active record
 
-| Prefix:     | Output:                      |
-| ----------- | ---------------------------- |
-| `db_delete` | `$this->db->delete('table')` |
+| Prefix:     | Output:                                      |
+| ----------- | -------------------------------------------- |
+| `db_delete` | `$this->db->delete('table');`                |
+| `db_get`    | `$this->db->get('table','limit', 'offset');` |
 
 ## Session
 
