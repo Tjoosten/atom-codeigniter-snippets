@@ -66,3 +66,15 @@
   'CI Controller':
     'prefix': 'controller'
     'body': "function ${1:name}() {\n // Where the magic happens \n}"
+
+  'Form submit':
+    'prefix': 'form_submit'
+    'body': "form_submit('${1:name}', '${2:value}');"
+
+  'Input server':
+    'prefix': '_server'
+    'body': "$this->input->server('${1:name}')"
+
+  'Setting up cookie'
+    'prefix': '_cookie'
+    'body': "$this->input->cookie()('${1:name}');"
