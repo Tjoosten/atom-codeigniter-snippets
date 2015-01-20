@@ -9,6 +9,7 @@ To use the a snippet just type the prefix and hit your tab.
 | ----------- | -------------------------------------------- |
 | `db_delete` | `$this->db->delete('table');`                |
 | `db_get`    | `$this->db->get('table','limit', 'offset');` |
+| `db_where`  | `$this->db->where('column', 'value');`       |
 
 ## Session
 
@@ -33,3 +34,4 @@ To use the a snippet just type the prefix and hit your tab.
 | `dump`     | `var_dump($variable);`  |
 | `docblock` | a comment docblock      |
 | `e`        | `echo`                  |
+| `th`       | `$this->`               |

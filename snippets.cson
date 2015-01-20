@@ -87,3 +87,7 @@
   'Database get':
     'prefix': 'db_get'
     'body': "$this->db->get('${1:Table}'${2:, ${3:limit}, ${4:offset}}"
+
+  'Database Insert':
+    'Prefix': 'db_insert'
+    'body': "$this->db->insert('${1:Table}', ${2:object});"
