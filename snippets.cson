@@ -88,6 +88,10 @@
     'prefix': 'db_get'
     'body': "$this->db->get('${1:Table}'${2:, ${3:limit}, ${4:offset}}"
 
+  'Database where':
+    'prefix': 'db_where'
+    'body': "$this->db->where('${1:column}','${2:value}');"
+
   'Database Insert':
     'Prefix': 'db_insert'
-    'body': "$this->db->insert('${1:Table}', ${2:object});"
+    'body': "$this->db->insert('${1:Table}', ${2:$object});"

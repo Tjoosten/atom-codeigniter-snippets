@@ -9,6 +9,7 @@ To use the a snippet just type the prefix and hit your tab.
 | ----------- | -------------------------------------------- |
 | `db_delete` | `$this->db->delete('table');`                |
 | `db_get`    | `$this->db->get('table','limit', 'offset');` |
+| `db_insert` | `$this->db->insert('Table', $object);`       |
 | `db_where`  | `$this->db->where('column', 'value');`       |
 
 ## Session
